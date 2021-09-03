@@ -4,7 +4,7 @@
 @import "~font-awesome/css/font-awesome.min.css";
 div.card-header {
     font-size: large;
-    color: rgb(216, 87, 13)
+    color: rgba(216, 202, 13, 0.623)
 }
 
 div.card-body {

@@ -1,9 +1,9 @@
 .fa-exclamation {
-  color: red;
+    color: red;
 }
 
 .wizard a {
-    background: #efefef;
+    background: #502c2c7e;
     display: inline-block;
     margin-right: 5px;
     min-width: 150px;
@@ -18,26 +18,30 @@
     text-decoration: underline;
 }
 
-    /* Adds the cut out on the left side of the tab */
+
+/* Adds the cut out on the left side of the tab */
+
 .wizard a:before {
     width: 0;
     height: 0;
     border-top: 20px inset transparent;
     border-bottom: 24px inset transparent;
-    border-left: 20px solid #fff;
+    border-left: 20px solid rgba(33, 238, 118, 0.534);
     position: absolute;
     content: "";
     top: 0;
     left: 0;
 }
 
-    /* Adds the arrow on the right side of the tab */
+
+/* Adds the arrow on the right side of the tab */
+
 .wizard a:after {
     width: 0;
     height: 0;
     border-top: 20px inset transparent;
     border-bottom: 24px inset transparent;
-    border-left: 21px solid #efefef;
+    border-left: 21px solid #0c2697c4;
     position: absolute;
     content: "";
     top: 0;
@@ -45,13 +49,17 @@
     z-index: 2;
 }
 
-    /* Squares the start and end of the tab bar */
+
+/* Squares the start and end of the tab bar */
+
 .wizard a:first-child:before,
 .wizard a:last-child:after {
-    border: none;
+    border: brown;
 }
 
-    /* Rounds the corners */
+
+/* Rounds the corners */
+
 .wizard a:first-child {
     -webkit-border-radius: 8px 0 0 0px;
     -moz-border-radius: 8px 0 0 0px;
@@ -65,11 +73,13 @@
 }
 
 .wizard .active {
-    background: #007ACC;
-    color: #fff;
+    background: #398d3d;
+    color: rgb(245, 190, 9);
 }
 
-    /* Adds the right arrow after the tab */
+
+/* Adds the right arrow after the tab */
+
 .wizard .active:after {
-    border-left-color: #007ACC;
+    border-left-color: #6e0d3a;
 }
